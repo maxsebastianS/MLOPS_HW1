@@ -2,7 +2,7 @@
 
 **Branch:** `hw2-regression`  
 **Task:** Linear Regression predicting `fare_amount` (NYC Green Taxi data)  
-**Remote storage:** Google Drive via DVC  
+**Remote storage:** Google Drive via DVC   https://drive.google.com/drive/folders/1uzwIN61eUIedLOM53jprkR6HhfL-9e3J?usp=drive_link
 **GitHub:** https://github.com/maxsebastianS/MLOPS_HW1
 
 ---
