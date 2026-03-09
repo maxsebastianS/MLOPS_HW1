@@ -1,0 +1,25 @@
+HW2 Submission Note
+===================
+
+Please refer to README_HW2.md for the full report covering all assignment tasks
+(versioning setup, results, interpretations, and production monitoring plan).
+
+Branch: hw2-regression
+GitHub: https://github.com/maxsebastianS/MLOPS_HW1/tree/hw2-regression
+
+New files added for HW2:
+------------------------
+  clean_data_v2.py          - Cleans Feb 2021 data and combines with Jan 2021
+  evaluate_v2.py            - Evaluates V1 model on the combined test set (V2)
+  regression_model_v3.py    - Retrains model on combined data (V3)
+  requirements.txt          - Updated with dvc==3.66.1 and dvc-gdrive==3.0.1
+  README_HW2.md             - Full HW2 report
+
+DVC pointer files (data & models stored on Google Drive):
+---------------------------------------------------------
+  green_tripdata_2021-01_cleaned.parquet.dvc   -> V1 data
+  green_tripdata_combined_cleaned.parquet.dvc  -> V2/V3 data (Jan + Feb 2021)
+  regression_model.pkl.dvc                     -> V1 model
+  regression_model_v3.pkl.dvc                  -> V3 retrained model
+
+Git tags: v1, v2, v3
