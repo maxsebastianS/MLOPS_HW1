@@ -6,3 +6,5 @@ seaborn==0.13.2
 jupyter==1.0.0
 joblib==1.4.2
 pyarrow==17.0.0
+dvc==3.66.1
+dvc-gdrive==3.0.1
